@@ -7,7 +7,7 @@ from docx import Document
 
 st.set_page_config(page_title="AI Research Assistant", layout="wide")
 
-st.title("🔍 AI Research Assistant")
+st.title("🔍 Lexi AI")
 query = st.text_input("Enter your research topic:", "Artificial Intelligence")
 
 if query:
